@@ -33,10 +33,10 @@ class Finanzas:
         totalEgresos = 0.00
 
         for ingreso in ingresosLista:
-            totalIngresos = totalIngresos + ingreso[1]
+            totalIngresos = totalIngresos + ingreso
 
         for egreso in egresosLista:
-            totalEgresos = totalEgresos + egreso[1]
+            totalEgresos = totalEgresos + egreso
 
         montoFinal = self.monto + totalIngresos - totalEgresos
         return montoFinal

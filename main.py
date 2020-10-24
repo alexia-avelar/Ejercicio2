@@ -55,5 +55,5 @@ while True:
         nombre = finanzas.obtenerNombre()
         montoFinal = finanzas.montoFinalCuenta()
         print(
-            f"El monto actual de la cuenta {idCuenta} ,perteneciente a {nombre} es: ${montoFinal}"
+            f"El monto actual de la cuenta {str(idCuenta)} ,perteneciente a {nombre} es: ${str(montoFinal)}"
         )
