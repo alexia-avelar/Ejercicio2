@@ -11,7 +11,7 @@ class Egresos:
 
     def mostrarEgresos(self):
         for egreso in self.egresosList:
-            print(f"Id: {}. Monto: {str(egreso)}")
+            print(f"Id: {str(idEgresos)}. Monto: {str(egreso)}")
 
     def obtenerEgresos(self):
         return self.egresosList
